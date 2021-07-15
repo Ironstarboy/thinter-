@@ -11,7 +11,7 @@ class Application(tk.Tk):
         self.createWidgets()
 
     def createWidgets(self):
-        self.title('上传的xls路径不能有中文')
+        self.title('上传的xls路径不能有中文,可能不能有空格，仅支持win')
         self.columnconfigure(0, minsize=500)
         # 定义一些变量
         self.entryvar = tk.StringVar()
